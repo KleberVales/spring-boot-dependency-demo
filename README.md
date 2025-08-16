@@ -12,3 +12,20 @@ Este projeto demonstra como o Spring Boot simplifica o gerenciamento de dependê
 - Utilizar banco de dados H2 em memória.
 
 ## 🗂 Estrutura de Pastas
+
+```plaintext
+spring-boot-dependency-demo/
+ ├── build.gradle.kts
+ ├── settings.gradle.kts
+ └── src
+     ├── main
+     │   ├── java/com/example/dependency
+     │   │   ├── SpringBootDependencyDemoApplication.java
+     │   │   ├── controller/HelloController.java
+     │   │   ├── entity/Product.java
+     │   │   └── repository/ProductRepository.java
+     │   └── resources/application.properties
+     └── test/java/com/example/dependency
+         └── SpringBootDependencyDemoApplicationTests.java
+
+```
