@@ -31,3 +31,13 @@ spring-boot-dependency-demo/
 ```
 
 ## 📊 Fluxograma – Ciclo da Aplicação
+
+```mermaid
+flowchart TD
+    A[Usuário acessa /hello] --> B[HelloController]
+    B --> C["Retorna 'Hello from Spring Boot Dependency Demo!'"]
+
+    A2[Usuário acessa /h2-console] --> D[H2 Database]
+    D --> E[ProductRepository]
+    E --> F[Entidade Product]
+```
