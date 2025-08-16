@@ -10,3 +10,5 @@ Este projeto demonstra como o Spring Boot simplifica o gerenciamento de dependê
 - Criar um HelloController simples.
 - Configurar uma entidade Product e um ProductRepository usando JPA.
 - Utilizar banco de dados H2 em memória.
+
+## 🗂 Estrutura de Pastas
