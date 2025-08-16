@@ -29,3 +29,5 @@ spring-boot-dependency-demo/
          └── SpringBootDependencyDemoApplicationTests.java
 
 ```
+
+## 📊 Fluxograma – Ciclo da Aplicação
